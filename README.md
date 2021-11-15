@@ -14,4 +14,4 @@ Recipe application where users can
 - Window.history API
 
 ##Deployment on netlify
-link:
+link: https://forkify-hanif.netlify.app/
