@@ -122,6 +122,11 @@ export const uploadRecipe = async function (recipe) {
       ingredients,
     };
 
+    if (!API_KEY)
+      throw new Error(
+        "API key is hidden away due to spams! Get your own key from here 'https://forkify-api.herokuapp.com/v2' "
+      );
+
     const data = await sendJSON(`${API_URL}?key=${API_KEY}`, RECIPE);
 
     state.recipe = getRecipeObject(data);
