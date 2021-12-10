@@ -1,4 +1,4 @@
-#Forkify Project from Jonas Schmedtmann's course on Udemy
+# Forkify Project from Jonas Schmedtmann's course on Udemy
 
 Recipe application where users can
 
@@ -6,12 +6,12 @@ Recipe application where users can
 - Bookmark recipes
 - Add their own custom recipes
 
-##What I learnt:
+## What I learnt:
 
 - Creating virtual DOM using 'document.createRange().createContextualFragment(Markup);
 - FormData object from Web APIs
 - Sending data using fetch()
 - Window.history API
 
-##Deployment on netlify
+## Deployment on netlify
 link: https://forkify-hanif.netlify.app/
