@@ -1,13 +1,13 @@
-# Forkify Project from Jonas Schmedtmann's course on Udemy
+# Forkify - a recipe application
 
-Recipe application where users can
+I made this project as a part of Jonas Schmedttmann's JavaScript course on Udemy. 
 
+## Users can:
 - Search for recipes
 - Bookmark recipes
 - Add their own custom recipes
 
 ## What I learnt:
-
 - Creating virtual DOM using 'document.createRange().createContextualFragment(Markup);
 - FormData object from Web APIs
 - Sending data using fetch()
